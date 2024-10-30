@@ -1,0 +1,70 @@
+*{
+    margin: 0% ;
+    padding: 0% ;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:#d0d0d0;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cards{
+    height: 350px;
+    width: 250px;
+    /* margin-left: 500px;
+    margin-top: 150px; */
+/*     if we didn't use #main div , then we can use this to positioning cards in centre
+ */
+    border: 2px solid rgb(145, 55, 55);
+    border-radius: 15px;
+    position: absolute;
+    overflow: hidden;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#card1{
+    z-index: 5;
+    /* background-color: aquamarine; */
+}
+#card2{
+    rotate: -8deg;
+    z-index: 4;
+}
+#card3{
+    rotate: -16deg;
+    z-index: 3;
+}
+#card4{
+    rotate: -24deg;
+    z-index: 2;
+}
+#card5{
+    rotate: -32deg;
+    z-index: 1;
+}
+#card2:hover{
+    z-index: 6;
+}
+#card3:hover{
+    z-index: 6;
+}
+#card4:hover{
+    z-index: 6;
+}
+#card5:hover{
+    z-index: 6;
+}
+h2{
+    text-align: center;
+}
